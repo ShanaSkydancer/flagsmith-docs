@@ -26,6 +26,9 @@
                                 }
                             }
                         }
+                    },
+                    "401": {
+                        "description": "No environment key header present."
                     }
                 }
             }
@@ -56,6 +59,15 @@
                                 }
                             }
                         }
+                    },
+                    "401": {
+                        "description": "No environment key header present."
+                    },
+                    "403": {
+                        "description": "Organisation is disabled from serving flags."
+                    },
+                    "400": {
+                        "description": "No identifier argument present."
                     }
                 }
             },
@@ -88,6 +100,15 @@
                                 }
                             }
                         }
+                    },
+                    "401": {
+                        "description": "No environment key header present."
+                    },
+                    "403": {
+                        "description": "Organisation is disabled from serving flags."
+                    },
+                    "400": {
+                        "description": "No identifier argument present."
                     }
                 }
             }
